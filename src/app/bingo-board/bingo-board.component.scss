@@ -1,0 +1,56 @@
+
+.bingo-board-container {
+    display: flex;
+    aspect-ratio: 1/1;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.root {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: 1000px;
+    width: 1850px;
+}
+
+.bingo-board {
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 800px;
+    justify-content: flex-start;
+
+    .bingo-square {
+        width: 150px;
+        border: 2px solid black;
+        aspect-ratio: 1/1;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        vertical-align: middle;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        p {
+            font-weight: bold;
+            font-size: 22px;
+            color: white;
+            text-transform: uppercase;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+    }
+}
+
+.rules {
+    ol, ul {
+        padding-left: 0px;
+    }
+
+}

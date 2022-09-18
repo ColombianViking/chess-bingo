@@ -1,0 +1,37 @@
+<button (click)="rerollAchievements()">Reroll</button>
+<button (click)="saveScreenshot()">Screenshot</button>
+<input #teamname>
+<div class="root" #screen>
+    <div class="bingo-board-container">
+    <div class="title">Bingo board</div>
+    <div class="bingo-board">
+        <div
+        class="bingo-square"
+        *ngFor="let a of achievements"
+        [style.background-image]="'url(/assets/images/' + a.identifier + '.png)'"
+        >
+        <p>{{ a.title }}</p>
+        </div>
+    </div>
+    </div>
+    <div class="explanation-container">
+    <div class="title">Achievement details</div>
+    <app-explanations [achievements]="achievements"></app-explanations>
+    </div>
+    <div class="rules">
+        <div class="title">Glossary & Rules</div>
+        <ul>
+            <li>Piece = Bishop, Knight, Rook, Queen</li>
+            <li>The .. dots denote any opponent move. For example: 1. e4 .. 2. Nf3 show that no matter what blacks move is, Nf3 is to be played afterwards.</li>
+        </ul>
+        <ol>
+            <li>Each square completed is worth as much as it's difficulty. The difficulty is shown as green, yellow or red for 1, 2 or 3 points respectively</li>
+            <li>Each row completed is worth as much as the sum of its squares difficulty, divided by 5, rounded up.</li>
+            <li>A tie in the bingo competition will be decided by the placing in the normal tournament.</li>
+            <li>Bring your bingo card to your match. Use a small dot to indicate if you think you've completed a square. If you feel unsure, pause the clock on your turn and verify with the enemy team.</li>
+            <li>After the game, fill in or cross out the squares you have completed.</li>
+            <li>Squares won't be awarded retroactively, these have to be decided while both teams are at the board.</li>
+            <li>Have some manners. Achievement hunting when you are in a totally winning position is very rude.</li>
+        </ol>
+    </div>
+</div>

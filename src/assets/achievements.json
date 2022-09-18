@@ -1,0 +1,238 @@
+    [
+      {
+        "title": "The Fianchetto",
+        "description": "As white, start the game with 1. g3 .. 2. Bg2",
+        "url": "https://m.media-amazon.com/images/I/91sGW5RPpXL.jpg",
+        "difficulty": 1,
+        "identifier": "fiachetto"
+      },
+      {
+        "title": "The English",
+        "description": "As white, start the game with 1. c4",
+        "url": "https://i0.wp.com/chesspathways.com/wp-content/uploads/2019/08/13a-300x300.png?ssl=1",
+        "difficulty": 1,
+        "identifier": "english"
+      },
+      {
+        "title": "Castle early and often",
+        "description": "Castle at the first move when it is possible",
+        "url": "https://media-cdn.tripadvisor.com/media/photo-s/02/1e/71/56/airth-castle-hotel.jpg",
+        "difficulty": 1,
+        "identifier": "castling"
+      },
+      {
+        "title": "The emperors new clothes",
+        "description": "Move the king five moves in a row",
+        "url": "https://miro.medium.com/max/500/0*jAkm5BoYYiPHvODC",
+        "difficulty": 2,
+        "identifier": "emperorclothes"
+      },
+      {
+        "title": "Bish don`t kill my vibe",
+        "description": "Trade both your knights for the enemy bishops.",
+        "url": "https://pbs.twimg.com/media/Cx92c_DXgAA1RSV.jpg",
+        "difficulty": 2,
+        "identifier": "bish"
+      },
+      {
+        "title": "Knife F5",
+        "description": "Play Nf5",
+        "url": "https://lh3.googleusercontent.com/-BGmBXHKQpg8/VyR-qEMiqJI/AAAAAAAAYh8/W8CcNuulPy8/s640/blogger-image--935665312.jpg",
+        "difficulty": 1,
+        "identifier": "knife5"
+      },
+      {
+        "title": "The mad king",
+        "description": "Capture 3 pawns with the king.",
+        "url": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/25/1466683466-aerys.jpg",
+        "difficulty": 2,
+        "identifier": "madking"
+      },
+      {
+        "title": "Sicillian defence",
+        "description": "As black, play 1. e4 c5",
+        "url": "https://i0.wp.com/chesspathways.com/wp-content/uploads/2019/08/2e-300x300.png?ssl=1",
+        "difficulty": 1,
+        "identifier": "sicillian"
+      },
+      {
+        "title": "All pawns no hope",
+        "description": "As black, play 1. e4 c6. (Caro Kann)",
+        "url": "https://www.chessable.com/blog/wp-content/uploads/2022/01/Caro-Kann-0.png",
+        "difficulty": 1,
+        "identifier": "carokann"
+      },
+      {
+        "title": "No horsing around",
+        "description": "Promote a pawn to a knight.",
+        "url": "https://media.istockphoto.com/photos/muscular-man-in-horse-costume-picture-id539217882?s=612x612",
+        "difficulty": 2,
+        "identifier": "promote"
+      },
+      {
+        "title": "Shish kebab",
+        "description": "Pin a knight to a queen or king with a rook.",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSTgA2Pd6PcKZ4CHmaRj4D-5d-a_ytlzNB8Q&usqp=CAU",
+        "difficulty": 2,
+        "identifier": "kebab"
+      },
+      {
+        "title": "Ahead of schedule",
+        "description": "End a game with at least 3 minutes left on the clock.",
+        "url": "https://images.interactives.dk/usain-bolt-pose-f0JizXK3o4YoUbdNjsr12w.jpg?w=1500",
+        "difficulty": 2,
+        "identifier": "aheadofschedule"
+      },
+      {
+        "title": "Proper etiquette",
+        "description":
+          "Shake hands with the opponents and put your wristwatch at the side of the board.",
+        "url": "https://media.npr.org/assets/img/2017/11/13/ap_17317098283287-120dcbefa7d492614aa79ec82c03aa783045eb63.jpg",
+        "difficulty": 1,
+        "identifier": "etiquette"
+      },
+      {
+        "title": "Super-computer moves",
+        "description":
+          "Push an a- or h-pawn like AlphaZero (a4..a5, h4..h5, a5..a4, h5..h4)",
+        "url": "https://static01.nyt.com/images/2018/05/15/arts/01hal-voice1/merlin_135847308_098289a6-90ee-461b-88e2-20920469f96a-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+        "difficulty": 1,
+        "identifier": "supercomputer"
+      },
+      {
+        "title": "Un croissant",
+        "description": "Play en passant.",
+        "url": "https://varsego.se/storage/78CFA51E034F0E0A4EC1CE241569E651EAC46CFADD66C4EB1C4D33CC01E1D647/bdd86ccda81d4d9cb1e395bc13fb88ab/png/media/770a4415d8a94577a54ac37b38629093/13085%20Baguette%2026cm%20125g.png",
+        "difficulty": 3,
+        "identifier": "croissant"
+      },
+      {
+        "title": "Do you like piña coladas?",
+        "description":
+          "Put the queen and king next to eachother while none of them are on their home squares.",
+        "url": "https://i.guim.co.uk/img/media/b519c665952934dc8b7b49cec3319a3f1236be8d/0_57_5615_3370/master/5615.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=4ca15c041d50e569b53d18d15496f877",
+        "difficulty": 2,
+        "identifier": "pinacolada"
+      },
+      {
+        "title": "Check yourself b4 you wreck yourself!",
+        "description": "Check the enemy king by putting a piece on b4.",
+        "url": "https://i.guim.co.uk/img/media/67eec8ab7e348a4152ff3f0ea2a3fc1060f38e28/493_44_4711_2827/master/4711.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=4b572c37fd521716bd2724a6693efc5a",
+        "difficulty": 2,
+        "identifier": "checkb4"
+      },
+      {
+        "title": "Special bomb squad",
+        "description": "Capture an enemy piece or pawn on c4.",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/%C3%9Cbung_Northern_Coast.jpg/1200px-%C3%9Cbung_Northern_Coast.jpg",
+        "difficulty": 2,
+        "identifier": "bombc4"
+      },
+      {
+        "title": "The forbidden tactic",
+        "description":
+          "Start a game as white with 1. e4 .. 2. Bc4 .. 3. Qf3 or Qh5.",
+        "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Drevil_million_dollars.jpg/220px-Drevil_million_dollars.jpg",
+        "difficulty": 2,
+        "identifier": "forbidden"
+      },
+      {
+        "title": "Queen`s gambit antagonist",
+        "description": "Offer a draw and if declined, resign the game",
+        "url": "https://cdni.russiatoday.com/rbthmedia/images/2020.11/original/5fa1690415e9f9609a04b0ce.jpg",
+        "difficulty": 2,
+        "identifier": "antagonist"
+      },
+      {
+        "title": "I`m just happy to be here",
+        "description":
+          "Win a game leaving at least one piece unmoved for the entire game.",
+        "url": "https://imgflip.com/s/meme/Waiting-Skeleton.jpg",
+        "difficulty": 3,
+        "identifier": "staystill"
+      },
+      {
+        "title": "King`s indian defence",
+        "description": "As black, play 1.d4 Nf6 2. .. g6.",
+        "url": "https://www.ichess.net/wp-content/uploads/2021/10/Kings-Indian-Defense-3...g6.png",
+        "difficulty": 1,
+        "identifier": "kid"
+      },
+      {
+        "title": "Touchdown",
+        "description": "Move your king to the opposite side of the board",
+        "url": "https://thespun.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg3NDI1NTcyMjU4NTg4MjIw/afc-divisional-playoffs---buffalo-bills-v-kansas-city-chiefs.jpg",
+        "difficulty": 2,
+        "identifier": "touchdown"
+      },
+      {
+        "title": "Night night",
+        "description": "Check the enemy king and attack another piece (not pawn) at the same time",
+        "url": "https://d2iltjk184xms5.cloudfront.net/uploads/photo/file/408423/large_811a7cd86eb837ff6700a892fa3f4ef4-KEATON.jpeg",
+        "difficulty": 2,
+        "identifier": "nightnight"
+      },
+      {
+        "title": "Join the dark side",
+        "description": "With at least 8 total friendly pieces and pawns left on the board, put them all on dark squares",
+        "url": "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/2378MG/33aef9305b364d1192b64764967f6231.jpg/f/star-wars-rise-of-skywalker-darth-vader-e4049.jpg",
+        "difficulty": 2,
+        "identifier": "darkside"
+      },
+      {
+        "title": "Conga line",
+        "description": "Stack 3 pawns on the same file",
+        "url": "https://i.ytimg.com/vi/_JC3gNUg2kE/maxresdefault.jpg",
+        "difficulty": 2,
+        "identifier": "congaline"
+      },
+      {
+        "title": "Endgame connoisseur",
+        "description": "Win an end game with an even amount of pawns for each side and no pieces.",
+        "url": "https://www.meisterdrucke.uk/kunstwerke/400w/Eduard%20von%20Grtzner%20%20-%20Grtzner%20Benediktinermnch%20mit%20Wein%20beim%20Frhschoppen%20-%20(MeisterDrucke-605827).jpg",
+        "difficulty": 3,
+        "identifier": "endgame"
+      },
+      {
+        "title": "Dutch defence",
+        "description": "As black, play 1. d4 f5",
+        "url": "https://i1.wp.com/chesspathways.com/wp-content/uploads/2019/09/27a-300x300.png?ssl=1",
+        "difficulty": 1,
+        "identifier": "dutch"
+      },
+      {
+        "title": "Close calls",
+        "description": "Win a game with less than 10 seconds on the clock. (Remember to pause the clock if you resign.)",
+        "url": "https://i1.sndcdn.com/artworks-000295162554-ff6wau-t500x500.jpg",
+        "difficulty": 3,
+        "identifier": "closecall"
+      },
+      {
+        "title": "Det sjunde inseglet",
+        "description": "Win a game as black, cosplaying as death.",
+        "url": "https://i1.sndcdn.com/artworks-ZE696DV5PpZWkjyG-WhFrqQ-t500x500.jpg",
+        "difficulty": 3,
+        "identifier": "inseglet"
+      },
+      {
+        "title": "Connected world",
+        "description": "Play a game online",
+        "url": "https://assets.weforum.org/community/image/t-WX7StbbVoDoyUtb2e7QPbdGXTvtvgeb3Lcs9QFlEg.jpeg",
+        "difficulty": 2,
+        "identifier": "connected"
+      },
+      {
+        "title": "Connect 4",
+        "description": "Create a pawn chain with 4 pawns",
+        "url": "https://m.media-amazon.com/images/I/91sGW5RPpXL.jpg",
+        "difficulty": 2,
+        "identifier": "connect4"
+      },
+      {
+        "title": "Egg",
+        "description": "Open the game by pushing you e-pawn and then pushing your g-pawn twice.",
+        "url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/7614/production/_105482203__105172250_gettyimages-857294664.jpg",
+        "difficulty": 2,
+        "identifier": "egg"
+      }
+    ]
