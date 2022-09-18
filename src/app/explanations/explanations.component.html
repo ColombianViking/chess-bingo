@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="explanation" *ngFor='let a of achievements' [ngClass]="difficulties[a.difficulty - 1]">
+        <p class="title">{{a.title}}</p>
+        <p class="description">{{a.description}}</p>
+        <p class="difficulty">Points: {{a.difficulty}}</p>
+    </div>
+</div>
