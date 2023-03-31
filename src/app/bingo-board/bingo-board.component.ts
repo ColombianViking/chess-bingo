@@ -25,7 +25,9 @@ export class BingoBoardComponent implements OnInit {
 
   rerollAchievements() {
     let teamname = this.teaminput.nativeElement.value;
-    this.achievements = this.achievementService.getRandomAchievments(teamname == "" ? undefined : teamname);
+    teamname = teamname == "" ? undefined : teamname
+    this.achievements = this.achievementService.getRandomAchievments(teamname);
+    this.achievements[12] = this.achievementService.getOpening(teamname)
   }
 
   totalDifficulty(): number {

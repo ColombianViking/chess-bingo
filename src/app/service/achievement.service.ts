@@ -8,6 +8,7 @@ export type Achievement = {
   url?: string | undefined;
   difficulty: number;
   identifier: string;
+  opening?: boolean
 };
 
 @Injectable({
@@ -19,13 +20,17 @@ export class AchievementService {
   dataReady: boolean = false;
 
   seededRandom: () => number = Math.random;
+  openingList: Achievement[] = [];
 
   constructor(private http: HttpClient) {
     this.achievementData = this.http.get<Achievement[]>('assets/achievements.json').pipe(take(1))
   
+    
+  
     this.achievementData.subscribe(achievements => {
       this.dataReady = true;
-      this.achievementList = achievements
+      this.openingList = achievements.filter(a => a.opening);
+      this.achievementList = achievements.filter(a => a.opening == undefined )
     });
   }
 
@@ -55,6 +60,21 @@ export class AchievementService {
     return [(h1^h2^h3^h4)>>>0, (h2^h1)>>>0, (h3^h1)>>>0, (h4^h1)>>>0];
   }
 
+  private getRandomOpening(): Achievement {
+    let shuffled = this.openingList.slice(),
+      i = this.openingList.length,
+      temp,
+      index;
+    while (i--) {
+      index = Math.floor((i + 1) * this.seededRandom());
+      temp = shuffled[index];
+      shuffled[index] = shuffled[i];
+      shuffled[i] = temp;
+    }
+    return shuffled[0];
+  }
+
+
   private getRandomSubArray(size: number): Achievement[] {
     let shuffled = this.achievementList.slice(),
       i = this.achievementList.length,
@@ -74,11 +94,6 @@ export class AchievementService {
     if (seed !== undefined) {
       let hash = this.cyrb128(seed)
       this.seededRandom = this.mulberry32(hash[0])
-      console.log(seed)
-      console.log(this.seededRandom())
-      console.log(this.seededRandom())
-      console.log(this.seededRandom())
-      console.log(this.seededRandom())
     }
 
     return this.getRandomSubArray(25);
@@ -86,5 +101,19 @@ export class AchievementService {
 
   getAllAchievments(): Achievement[] {
     return this.achievementList;
+  }
+
+  getRandomAchievement(level: number, seed: string): Achievement {
+    return this.getRandomAchievments(seed).find(a => a.difficulty == level) 
+            ?? this.getRandomSubArray(50).find(a => a.difficulty == level)!!
+  }
+
+  getOpening(seed: string): Achievement {
+    if (seed !== undefined) {
+      let hash = this.cyrb128(seed)
+      this.seededRandom = this.mulberry32(hash[0])
+    }
+
+    return this.getRandomOpening()
   }
 }
