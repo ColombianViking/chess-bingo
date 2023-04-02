@@ -85,7 +85,7 @@
   },
   {
     "title": "The mad king",
-    "description": "Capture 3 pawns with the king.",
+    "description": "Capture 3 pawns or pieces with the king.",
     "url": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/25/1466683466-aerys.jpg",
     "difficulty": 2,
     "identifier": "madking"
@@ -226,7 +226,7 @@
   {
     "title": "Connect 4",
     "description": "Create a pawn chain with 4 pawns",
-    "url": "https://m.media-amazon.com/images/I/91sGW5RPpXL.jpg",
+    "url": "https://cf.geekdo-images.com/I_ZPIWEvFlrMa8caT4UD-w__itemrep/img/qJJIhcEFG5NnuBx7ltB_exsRiTE=/fit-in/246x300/filters:strip_icc()/pic859430.jpg",
     "difficulty": 2,
     "identifier": "connect4"
   },
@@ -239,7 +239,7 @@
   },
   {
     "title": "I have to C to B-sharp",
-    "description": "The brain has to wear a blindfold for the first 5 moves.",
+    "description": "The brain has to wear a blindfold for the first 5 pieces they say (someone has to say what moves the hands have made).",
     "url": "https://th.bing.com/th/id/R.a15e394f4a439ae26c215fbdcb4e5358?rik=iLMLobrJCwLZ9w&riu=http%3a%2f%2fweknowyourdreams.com%2fimages%2fblindfold%2fblindfold-06.jpg&ehk=g451THPAzX6uhpLDRoUdtibVX2xndYwIX7uLLaYNOdQ%3d&risl=&pid=ImgRaw&r=0",
     "difficulty": 2,
     "identifier": "blind"
@@ -274,7 +274,7 @@
   },
   {
     "title": "Im going easy on you",
-    "description": "The hand plays the entire game only using your left hand",
+    "description": "The hand plays the entire game only using their left hand",
     "url": "https://cdn.dribbble.com/users/319434/screenshots/1991611/untitled-1.png",
     "difficulty": 1,
     "identifier": "leftie"
@@ -287,6 +287,38 @@
     "identifier": "seesaw"
   },
   {
-
+    "title": "Headless horseman",
+    "description": "Enter the brainless stage with no bishops but both knights.",
+    "url": "https://static.wikia.nocookie.net/mythology/images/8/87/3eb3cec5ba4154731cda7e06fb3a0fd4.jpg/revision/latest?cb=20191118160932",
+    "difficulty": 2,
+    "identifier": "horseman"
+  },
+  {
+    "title": "Bechdel test",
+    "description": "Trade queen for queen.",
+    "url": "https://1.bp.blogspot.com/-Vv-4078jiFQ/XeUAOP6JZCI/AAAAAAAACLI/yQTpVYYSIPMwOxcGOSqNB5j4VjfKcQrWACLcBGAsYHQ/w460-h640/fighting%2Bqueen.jpg",
+    "difficulty": 1,
+    "identifier": "bechdel"
+  },
+  {
+    "title": "Scalable portfolio",
+    "description": "Promote to both bishop and queen in the same game.",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS2yUrPf6QGr6FC1qsGKdnNU6D8-5TbhO7f00oKT2iN_yFzfYm",
+    "difficulty": 3,
+    "identifier": "scalable"
+  },
+  {
+    "title": "Witness me",
+    "description": "Take a pawn with a piece when it can be recaptured by the king.",
+    "url": "https://i.ytimg.com/vi/x2CeDY9Ywhs/maxresdefault.jpg",
+    "difficulty": 2,
+    "identifier": "witness"
+  },
+  {
+    "title": "Classic blunders",
+    "description": "Bring two beverages to the match. Your opponent has to pick one, and then you both drink.",
+    "url": "https://plantyourself.com/wp-content/uploads/2015/06/wallace-shawn-as-vizzini-princess-bride.jpg",
+    "difficulty": 1,
+    "identifier": "blunders"
   }
 ]

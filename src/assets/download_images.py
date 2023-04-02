@@ -19,7 +19,8 @@ for achievement in data:
     url = achievement['url']
     identifier = achievement['identifier']
     filename = os.path.join(images_dir, f'{identifier}.png')
-    try:
-        urllib.request.urlretrieve(url, filename)
-    except Exception as e:
-        print(f'Warning: Failed to download image for achievement {identifier}: {e}')
+    if not os.path.exists(filename):
+        try:
+            urllib.request.urlretrieve(url, filename)
+        except Exception as e:
+            print(f'Warning: Failed to download image for achievement {identifier}: {e}')
