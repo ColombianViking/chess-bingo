@@ -255,14 +255,14 @@
     "title": "Confession booth",
     "description": "Place your bishop next to the enemy queen.",
     "url": "https://www.thoughtco.com/thmb/EDkjn2B7nfmqSYIBEb9maueMaVg=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/businessman-in-confessional-with-priest-aog61426-5c3bb9a146e0fb0001baf0a9.jpg",
-    "difficulty": 2,
+    "difficulty": 1,
     "identifier": "confession"
   },
   {
     "title": "Mistur Worldurwidur",
     "description": "Only use icelandic piece names for an entire game.",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/White_Pitbull.jpg/1200px-White_Pitbull.jpg",
-    "difficulty": 2,
+    "difficulty": 1,
     "identifier": "worldwide"
   },
   {
@@ -309,8 +309,8 @@
   },
   {
     "title": "Witness me",
-    "description": "Take a pawn with a piece when it can be recaptured by the king.",
-    "url": "https://i.ytimg.com/vi/x2CeDY9Ywhs/maxresdefault.jpg",
+    "description": "Take a pawn with a piece that can be recaptured by the king.",
+    "url": "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Angry%20Birds%20Flying%20Toward%20Wii%20And%203DS/0488.angrybirdshero.jpg",
     "difficulty": 2,
     "identifier": "witness"
   },
@@ -320,5 +320,26 @@
     "url": "https://plantyourself.com/wp-content/uploads/2015/06/wallace-shawn-as-vizzini-princess-bride.jpg",
     "difficulty": 1,
     "identifier": "blunders"
+  },
+  {
+    "title": "Lemmings",
+    "description": "The first time a pawn is moved, it has to take or jump two squares.",
+    "url": "https://cdn.britannica.com/44/195044-050-E82988A0/Lemmings-Really-Commit-Mass-Suicide-illustration.jpg",
+    "difficulty": 3,
+    "identifier": "lemmings"
+  },
+  {
+    "title": "Castle late and never",
+    "description": "Win a game where you don't castle",
+    "url": "https://recommendedby.se/wp-content/uploads/2018/05/Luftslott.jpg",
+    "difficulty": 2,
+    "identifier": "nevercastle"
+  },
+  {
+    "title": "Kingmaker",
+    "description": "Design your own king, give it a name and backstory and use it in a game.",
+    "url": "https://static.tvtropes.org/pmwiki/pub/images/double_king.png",
+    "difficulty": 2,
+    "identifier": "designer"
   }
 ]
